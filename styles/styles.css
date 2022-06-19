@@ -838,7 +838,7 @@ footer {
 .change {
     height:100vw;
     width:250px;
-    background-color:#3a8c73;
+    background-color:pink;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -940,7 +940,7 @@ footer {
 .main-nav {
     display: none;
 }
-#burger {
+.container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -949,6 +949,15 @@ footer {
     top:-5px;
     color:black;
     background-color: inherit;
+}
+.change {
+    height:100vw;
+    width:250px;
+    background-color:pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .popular-rest {
     display:-webkit-box;
@@ -1084,6 +1093,15 @@ footer {
 @media only screen and (min-width : 769px) and (max-width : 1024px) {
 .main-nav {
     display: none;
+}
+.change {
+    height:100vw;
+    width:250px;
+    background-color:pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container {
     display: -webkit-box;
